@@ -1,0 +1,293 @@
+package com.tim.model.ericson;
+
+import java.util.Date;
+
+public class EricsonDimension {
+	private int SKY_ACOMP_TERMINAIS_TAC;
+	private String NOM_FORNECEDOR;
+	private String NOM_MODELO_EQUIP;
+	private String NOM_PET;
+	private String NOM_VERSAO_3GPP_GSM;
+	private String NOM_VERSAO_3GPP_UMTS;
+	private String NOM_VERSAO_3GPP_LTE;
+	private String NOM_CATEGORIA_GSM_DL;
+	private String NOM_CATEGORIA_GSM_UL;
+	private String NOM_CATEGORIA_UMTS_DL;
+	private String NOM_CATEGORIA_UMTS_UL;
+	private String NOM_CATEGORIA_LTE_DL;
+	private String NOM_CATEGORIA_LTE_UL;
+	private String NOM_HOMOLOGACAO_TIM;
+	private String NOM_SEGMT_MARKETING;
+	private String NOM_SEGMT_REDE;
+	private String NOM_SISTEMA_OPERACIONAL;
+	private String NOM_BANDA_GSM;
+	private String NOM_BANDA_UMTS;
+	private String NOM_BANDA_LTE;
+	private String NOM_TECNOLOGIA_SUPORTADA;
+	private String QTD_SIM;
+	private String IND_WIFI;
+	private String NOM_EAP_SIM;
+	private String NOM_VOLTE;
+	private String NOM_TAC;
+	private Date DAT_INS_DW;
+
+	
+	public EricsonDimension(int sKY_ACOMP_TERMINAIS_TAC, String nOM_FORNECEDOR,
+			String nOM_MODELO_EQUIP, String nOM_PET,
+			String nOM_VERSAO_3GPP_GSM, String nOM_VERSAO_3GPP_UMTS,
+			String nOM_VERSAO_3GPP_LTE, String nOM_CATEGORIA_GSM_DL,
+			String nOM_CATEGORIA_GSM_UL, String nOM_CATEGORIA_UMTS_DL,
+			String nOM_CATEGORIA_UMTS_UL, String nOM_CATEGORIA_LTE_DL,
+			String nOM_CATEGORIA_LTE_UL, String nOM_HOMOLOGACAO_TIM,
+			String nOM_SEGMT_MARKETING, String nOM_SEGMT_REDE,
+			String nOM_SISTEMA_OPERACIONAL, String nOM_BANDA_GSM,
+			String nOM_BANDA_UMTS, String nOM_BANDA_LTE,
+			String nOM_TECNOLOGIA_SUPORTADA, String qTD_SIM, String iND_WIFI,
+			String nOM_EAP_SIM, String nOM_VOLTE, String nOM_TAC,
+			Date dAT_INS_DW) {
+		super();
+		SKY_ACOMP_TERMINAIS_TAC = sKY_ACOMP_TERMINAIS_TAC;
+		NOM_FORNECEDOR = nOM_FORNECEDOR;
+		NOM_MODELO_EQUIP = nOM_MODELO_EQUIP;
+		NOM_PET = nOM_PET;
+		NOM_VERSAO_3GPP_GSM = nOM_VERSAO_3GPP_GSM;
+		NOM_VERSAO_3GPP_UMTS = nOM_VERSAO_3GPP_UMTS;
+		NOM_VERSAO_3GPP_LTE = nOM_VERSAO_3GPP_LTE;
+		NOM_CATEGORIA_GSM_DL = nOM_CATEGORIA_GSM_DL;
+		NOM_CATEGORIA_GSM_UL = nOM_CATEGORIA_GSM_UL;
+		NOM_CATEGORIA_UMTS_DL = nOM_CATEGORIA_UMTS_DL;
+		NOM_CATEGORIA_UMTS_UL = nOM_CATEGORIA_UMTS_UL;
+		NOM_CATEGORIA_LTE_DL = nOM_CATEGORIA_LTE_DL;
+		NOM_CATEGORIA_LTE_UL = nOM_CATEGORIA_LTE_UL;
+		NOM_HOMOLOGACAO_TIM = nOM_HOMOLOGACAO_TIM;
+		NOM_SEGMT_MARKETING = nOM_SEGMT_MARKETING;
+		NOM_SEGMT_REDE = nOM_SEGMT_REDE;
+		NOM_SISTEMA_OPERACIONAL = nOM_SISTEMA_OPERACIONAL;
+		NOM_BANDA_GSM = nOM_BANDA_GSM;
+		NOM_BANDA_UMTS = nOM_BANDA_UMTS;
+		NOM_BANDA_LTE = nOM_BANDA_LTE;
+		NOM_TECNOLOGIA_SUPORTADA = nOM_TECNOLOGIA_SUPORTADA;
+		QTD_SIM = qTD_SIM;
+		IND_WIFI = iND_WIFI;
+		NOM_EAP_SIM = nOM_EAP_SIM;
+		NOM_VOLTE = nOM_VOLTE;
+		NOM_TAC = nOM_TAC;
+		DAT_INS_DW = dAT_INS_DW;
+	}
+
+	public int getSKY_ACOMP_TERMINAIS_TAC() {
+		return SKY_ACOMP_TERMINAIS_TAC;
+	}
+
+	public void setSKY_ACOMP_TERMINAIS_TAC(int sKY_ACOMP_TERMINAIS_TAC) {
+		SKY_ACOMP_TERMINAIS_TAC = sKY_ACOMP_TERMINAIS_TAC;
+	}
+
+	public String getNOM_FORNECEDOR() {
+		return NOM_FORNECEDOR;
+	}
+
+	public void setNOM_FORNECEDOR(String nOM_FORNECEDOR) {
+		NOM_FORNECEDOR = nOM_FORNECEDOR;
+	}
+
+	public String getNOM_MODELO_EQUIP() {
+		return NOM_MODELO_EQUIP;
+	}
+
+	public void setNOM_MODELO_EQUIP(String nOM_MODELO_EQUIP) {
+		NOM_MODELO_EQUIP = nOM_MODELO_EQUIP;
+	}
+
+	public String getNOM_PET() {
+		return NOM_PET;
+	}
+
+	public void setNOM_PET(String nOM_PET) {
+		NOM_PET = nOM_PET;
+	}
+
+	public String getNOM_VERSAO_3GPP_GSM() {
+		return NOM_VERSAO_3GPP_GSM;
+	}
+
+	public void setNOM_VERSAO_3GPP_GSM(String nOM_VERSAO_3GPP_GSM) {
+		NOM_VERSAO_3GPP_GSM = nOM_VERSAO_3GPP_GSM;
+	}
+
+	public String getNOM_VERSAO_3GPP_UMTS() {
+		return NOM_VERSAO_3GPP_UMTS;
+	}
+
+	public void setNOM_VERSAO_3GPP_UMTS(String nOM_VERSAO_3GPP_UMTS) {
+		NOM_VERSAO_3GPP_UMTS = nOM_VERSAO_3GPP_UMTS;
+	}
+
+	public String getNOM_VERSAO_3GPP_LTE() {
+		return NOM_VERSAO_3GPP_LTE;
+	}
+
+	public void setNOM_VERSAO_3GPP_LTE(String nOM_VERSAO_3GPP_LTE) {
+		NOM_VERSAO_3GPP_LTE = nOM_VERSAO_3GPP_LTE;
+	}
+
+	public String getNOM_CATEGORIA_GSM_DL() {
+		return NOM_CATEGORIA_GSM_DL;
+	}
+
+	public void setNOM_CATEGORIA_GSM_DL(String nOM_CATEGORIA_GSM_DL) {
+		NOM_CATEGORIA_GSM_DL = nOM_CATEGORIA_GSM_DL;
+	}
+
+	public String getNOM_CATEGORIA_GSM_UL() {
+		return NOM_CATEGORIA_GSM_UL;
+	}
+
+	public void setNOM_CATEGORIA_GSM_UL(String nOM_CATEGORIA_GSM_UL) {
+		NOM_CATEGORIA_GSM_UL = nOM_CATEGORIA_GSM_UL;
+	}
+
+	public String getNOM_CATEGORIA_UMTS_DL() {
+		return NOM_CATEGORIA_UMTS_DL;
+	}
+
+	public void setNOM_CATEGORIA_UMTS_DL(String nOM_CATEGORIA_UMTS_DL) {
+		NOM_CATEGORIA_UMTS_DL = nOM_CATEGORIA_UMTS_DL;
+	}
+
+	public String getNOM_CATEGORIA_UMTS_UL() {
+		return NOM_CATEGORIA_UMTS_UL;
+	}
+
+	public void setNOM_CATEGORIA_UMTS_UL(String nOM_CATEGORIA_UMTS_UL) {
+		NOM_CATEGORIA_UMTS_UL = nOM_CATEGORIA_UMTS_UL;
+	}
+
+	public String getNOM_CATEGORIA_LTE_DL() {
+		return NOM_CATEGORIA_LTE_DL;
+	}
+
+	public void setNOM_CATEGORIA_LTE_DL(String nOM_CATEGORIA_LTE_DL) {
+		NOM_CATEGORIA_LTE_DL = nOM_CATEGORIA_LTE_DL;
+	}
+
+	public String getNOM_CATEGORIA_LTE_UL() {
+		return NOM_CATEGORIA_LTE_UL;
+	}
+
+	public void setNOM_CATEGORIA_LTE_UL(String nOM_CATEGORIA_LTE_UL) {
+		NOM_CATEGORIA_LTE_UL = nOM_CATEGORIA_LTE_UL;
+	}
+
+	public String getNOM_HOMOLOGACAO_TIM() {
+		return NOM_HOMOLOGACAO_TIM;
+	}
+
+	public void setNOM_HOMOLOGACAO_TIM(String nOM_HOMOLOGACAO_TIM) {
+		NOM_HOMOLOGACAO_TIM = nOM_HOMOLOGACAO_TIM;
+	}
+
+	public String getNOM_SEGMT_MARKETING() {
+		return NOM_SEGMT_MARKETING;
+	}
+
+	public void setNOM_SEGMT_MARKETING(String nOM_SEGMT_MARKETING) {
+		NOM_SEGMT_MARKETING = nOM_SEGMT_MARKETING;
+	}
+
+	public String getNOM_SEGMT_REDE() {
+		return NOM_SEGMT_REDE;
+	}
+
+	public void setNOM_SEGMT_REDE(String nOM_SEGMT_REDE) {
+		NOM_SEGMT_REDE = nOM_SEGMT_REDE;
+	}
+
+	public String getNOM_SISTEMA_OPERACIONAL() {
+		return NOM_SISTEMA_OPERACIONAL;
+	}
+
+	public void setNOM_SISTEMA_OPERACIONAL(String nOM_SISTEMA_OPERACIONAL) {
+		NOM_SISTEMA_OPERACIONAL = nOM_SISTEMA_OPERACIONAL;
+	}
+
+	public String getNOM_BANDA_GSM() {
+		return NOM_BANDA_GSM;
+	}
+
+	public void setNOM_BANDA_GSM(String nOM_BANDA_GSM) {
+		NOM_BANDA_GSM = nOM_BANDA_GSM;
+	}
+
+	public String getNOM_BANDA_UMTS() {
+		return NOM_BANDA_UMTS;
+	}
+
+	public void setNOM_BANDA_UMTS(String nOM_BANDA_UMTS) {
+		NOM_BANDA_UMTS = nOM_BANDA_UMTS;
+	}
+
+	public String getNOM_BANDA_LTE() {
+		return NOM_BANDA_LTE;
+	}
+
+	public void setNOM_BANDA_LTE(String nOM_BANDA_LTE) {
+		NOM_BANDA_LTE = nOM_BANDA_LTE;
+	}
+
+	public String getNOM_TECNOLOGIA_SUPORTADA() {
+		return NOM_TECNOLOGIA_SUPORTADA;
+	}
+
+	public void setNOM_TECNOLOGIA_SUPORTADA(String nOM_TECNOLOGIA_SUPORTADA) {
+		NOM_TECNOLOGIA_SUPORTADA = nOM_TECNOLOGIA_SUPORTADA;
+	}
+
+	public String getQTD_SIM() {
+		return QTD_SIM;
+	}
+
+	public void setQTD_SIM(String qTD_SIM) {
+		QTD_SIM = qTD_SIM;
+	}
+
+	public String getIND_WIFI() {
+		return IND_WIFI;
+	}
+
+	public void setIND_WIFI(String iND_WIFI) {
+		IND_WIFI = iND_WIFI;
+	}
+
+	public String getNOM_EAP_SIM() {
+		return NOM_EAP_SIM;
+	}
+
+	public void setNOM_EAP_SIM(String nOM_EAP_SIM) {
+		NOM_EAP_SIM = nOM_EAP_SIM;
+	}
+
+	public String getNOM_VOLTE() {
+		return NOM_VOLTE;
+	}
+
+	public void setNOM_VOLTE(String nOM_VOLTE) {
+		NOM_VOLTE = nOM_VOLTE;
+	}
+
+	public String getNOM_TAC() {
+		return NOM_TAC;
+	}
+
+	public void setNOM_TAC(String nOM_TAC) {
+		NOM_TAC = nOM_TAC;
+	}
+
+	public Date getDAT_INS_DW() {
+		return DAT_INS_DW;
+	}
+
+	public void setDAT_INS_DW(Date dAT_INS_DW) {
+		DAT_INS_DW = dAT_INS_DW;
+	}
+}
